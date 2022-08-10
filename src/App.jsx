@@ -1,3 +1,5 @@
+/* The above code is importing the components from the components folder and then rendering them to the
+DOM. */
 import React from 'react'
 import Header from './components/header/header'
 import Nav from './components/nav/nav'
@@ -9,6 +11,12 @@ import Testimonials from './components/testimonials/testimonials'
 import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
 
+/* Importing the React library from the node_modules folder. */
+
+/**
+ * The app function returns a React fragment that contains the Header, Nav, About, Experience,
+ * Services, Portfolio, Testimonials, Contact, and Footer components.
+ */
 const app = () => {
   return (
     <>
@@ -25,4 +33,5 @@ const app = () => {
   )
 }
 
+/* Exporting the app function so that it can be imported into the index.js file. */
 export default app

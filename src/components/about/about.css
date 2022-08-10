@@ -1,9 +1,13 @@
+/* Creating a grid with two columns. The first column is 35% of the width of the container and the
+second column is 50% of the width of the container. The gap between the two columns is 15% of the
+width of the container. */
 .about__container {
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
 }
 
+/* Creating a square with a gradient background. */
 .about__me {
     width: 100%;
     aspect-ratio: 1/1;
@@ -18,6 +22,7 @@
     place-items: center;
 }
 
+/* Rotating the image by 10 degrees. */
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
@@ -25,16 +30,19 @@
     transition: var(--transition);
 }
 
+/* Rotating the image back to its original position when the mouse hovers over it. */
 .about__me-image:hover{
     transform: rotate(0);
 }
 
+/* Creating a grid with three columns and a gap of 1.5rem between each column. */
 .about__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
 }
 
+/* Styling the cards. */
 .about__card {
     background: var(--color-bg-variant);
     border: 1px solid transparent;
@@ -44,27 +52,33 @@
     transform: var(--transition);
 }
 
+/* Changing the background color of the card to transparent and the border color to the primary variant
+color when the mouse hovers over it. */
 .about__card:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
 }
 
+/* Styling the icons in the about section. */
 .about__icon {
     color: var(--color-primary);
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
 
+/* Styling the h5 tag inside the about__card class. */
 .about__card h5 {
     font-size: 0.95rem;
 }
 
+/* Styling the small tag inside the about__card class. */
 .about__card small {
     font-size: 0.7rem;
     color: var(--color-light);
 }
 
+/* Styling the p tag inside the about__content class. */
 .about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);

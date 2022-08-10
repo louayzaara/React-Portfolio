@@ -1,3 +1,4 @@
+/* The above code is importing the react library, the css file, the image, and the icons. */
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.jpg'
@@ -5,6 +6,7 @@ import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
 
+/* A function that returns the HTML code. */
 const about = () => {
   return (
     <section id='about'>

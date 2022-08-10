@@ -1,5 +1,8 @@
+/* The above code is a CSS code that is used to style the HTML code. */
+/* Importing the font from google fonts. */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
+/* This is a CSS code that is used to style the HTML code. */
 * {
     margin: 0;
     padding: 0;
@@ -25,6 +28,7 @@
     --container-width-sm: 90%;
 }
 
+/* Making the scroll smooth. */
 html {
     scroll-behavior: smooth;
 }
@@ -33,21 +37,25 @@ html {
     display: none;
 }
 
+/* Styling the body of the HTML code. */
 body {
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
     background-image: url(../src/assets/dark-exa.png);
+    animation: move 1s linear infinite forwards;
 }
 
 /* ============= Genreal Styles ============ */
 
+/* Making the container width 75% and making it centered. */
 .container {
     width: var(--container-width-lg);
     margin: 0 auto;
 }
 
+/* Making the font weight of the h1, h2, h3, h4, and h5 tags 500. */
 h1, 
 h2, 
 h3, 
@@ -56,38 +64,46 @@ h5 {
     font-weight: 500;
 }
 
+/* Making the font size of the h1 tag 2.5rem. */
 h1{
     font-size: 2.5rem;
 }
 
+/* Making the margin top of the section tag 8rem. */
 section {
     margin-top: 8rem;
 }
 
+/* Making the text align center and the color light. */
 section > h2, 
 section > h5 {
     text-align: center;
     color: var(--color-light);
 }
 
+/* Making the color of the h2 tag primary and the margin bottom 3rem. */
 section > h2{
     color: var(--color-primary);
     margin-bottom: 3rem;
 } 
 
+/* Making the color of the text light. */
 .text-light {
     color: var(--color-light);
 }
 
+/* Making the color of the a tag primary and the transition 400ms ease. */
 a {
     color: var(--color-primary);
     transition: var(--transition);
 }
 
+/* Making the color of the a tag white when the mouse is hovering over it. */
 a:hover {
     color: var(--color-white);
 }
 
+/* The above code is a CSS code that is used to style the HTML code. */
 .btn {
     width: max-content;
     display: inline-block;
@@ -124,7 +140,6 @@ img {
 
     section {
         margin-top: 6rem;
-        height: 100vh;
     }
  }
 
