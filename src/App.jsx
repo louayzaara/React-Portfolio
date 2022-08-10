@@ -13,6 +13,8 @@ import Footer from './components/footer/footer'
 
 /* Importing the React library from the node_modules folder. */
 
+/* To deploy go to package.json & change the homepage link with your domain name then run in terminal npm run build next go to the react project folder and you will find a new folder named build thats what you gonna use only to deploy the website */
+
 /**
  * The app function returns a React fragment that contains the Header, Nav, About, Experience,
  * Services, Portfolio, Testimonials, Contact, and Footer components.
