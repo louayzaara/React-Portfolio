@@ -1,3 +1,5 @@
+/* Setting the width of the container to 58% and setting the grid-template-columns to 30% and 58% and
+the gap to 12%. */
 .container.contact__container {
     width: 58%;
     display: grid;
@@ -5,12 +7,15 @@
     gap: 12%;
 }
 
+/* Setting the display to flex, the flex-direction to column and the gap to 1.2rem. */
 .contact__options {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
 }
 
+/* Setting the background to the color of the background variant, padding to 1.2rem, border-radius to
+1.2rem, text-align to center, border to 1px solid transparent, and transition to var(--transition). */
 .contact__option {
     background: var(--color-bg-variant);
     padding: 1.2rem;

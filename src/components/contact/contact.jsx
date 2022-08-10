@@ -6,14 +6,14 @@ import {BsWhatsapp} from 'react-icons/bs'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
 
-
+/* GO TO EMAIL.JS & CREATE AND ACCOUNT THEN REPLACE SERVICE ID, TEMPLATE ID, PUBLIC KEY with Yours//HAPPY HACKING // */
 const contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY') /* GO TO EMAIL.JS & CREATE AND ACCOUNT THEN REPLACE SERVICE ID, TEMPLATE ID, PUBLIC KEY // HAPPY HACKING // */
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY') 
 
     e.target.reset()
   };
