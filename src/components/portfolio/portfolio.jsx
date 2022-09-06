@@ -98,60 +98,60 @@ const portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG1} alt=""/>
           </div>
-          <h3>Portfolio item 1</h3>
+          <h3>Portfolio personal 1</h3>
           <div className="portfolio__item-cta">
-            <a href="#" className='btn' target='_blank'>Github</a>
-            <a href="#" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="#" className='btn' target='#'>Github</a>
+            <a href="#" className='btn btn-primary' target='#'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={IMG2} alt=""/>
           </div>
-          <h3>Portfolio item 2</h3>
+          <h3>Portfolio personal 2</h3>
           <div className="portfolio__item-cta">
-            <a href="#" className='btn' target='_blank'>Github</a>
-            <a href="#" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="#" className='btn' target='#'>Github</a>
+            <a href="#" className='btn btn-primary' target='#'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={IMG3} alt=""/>
           </div>
-          <h3>Portfolio item 3</h3>
+          <h3>Portfolio personal 3</h3>
           <div className="portfolio__item-cta">
-            <a href="#" className='btn' target='_blank'>Github</a>
-            <a href="#" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="#" className='btn' target='#'>Github</a>
+            <a href="#" className='btn btn-primary' target='#'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={IMG4} alt=""/>
           </div>
-          <h3>Portfolio item 4</h3>
+          <h3>Portfolio personal 4</h3>
           <div className="portfolio__item-cta">
-            <a href="#" className='btn' target='_blank'>Github</a>
-            <a href="#" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="#" className='btn' target='#'>Github</a>
+            <a href="#" className='btn btn-primary' target='#'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={IMG5} alt=""/>
           </div>
-          <h3>Portfolio item 5</h3>
+          <h3>Portfolio personal 5</h3>
           <div className="portfolio__item-cta">
-            <a href="#" className='btn' target='_blank'>Github</a>
-            <a href="#" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="#" className='btn' target='#'>Github</a>
+            <a href="#" className='btn btn-primary' target='#'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={IMG6} alt=""/>
           </div>
-          <h3>Portfolio item 6</h3>
+          <h3>Portfolio personal 6</h3>
           <div className="portfolio__item-cta">
-            <a href="#" className='btn' target='_blank'>Github</a>
-            <a href="#" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="#" className='btn' target='#'>Github</a>
+            <a href="#" className='btn btn-primary' target='#'>Live Demo</a>
           </div>
         </article>
       </div>

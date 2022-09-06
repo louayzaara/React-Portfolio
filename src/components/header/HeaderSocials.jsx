@@ -6,9 +6,9 @@ import {SiFacebook} from 'react-icons/si'
 const HeaderSocials = () => {
   return (
     <div className='header__socials'>
-        <a href="#" target="_blank"><BsLinkedin/></a>
-        <a href="#" target="_blank"><FaGithub/></a>
-        <a href="#" target="_blank"><SiFacebook/></a>
+        <a href="#" target="#"><BsLinkedin/></a>
+        <a href="#" target="#"><FaGithub/></a>
+        <a href="#" target="#"><SiFacebook/></a>
     </div>
   )
 }
